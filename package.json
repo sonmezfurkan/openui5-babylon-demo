@@ -1,0 +1,14 @@
+{
+  "name": "openui5-babylon-demo",
+  "version": "1.0.0",
+  "description": "Sample usage of Babylonjs library with UI5",
+  "scripts": {
+    "start": "ui5 serve --open index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Furkan Sönmez",
+  "license": "ISC",
+  "devDependencies": {
+    "@ui5/cli": "^1.7.0"
+  }
+}

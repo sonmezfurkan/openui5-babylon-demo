@@ -1,0 +1,96 @@
+Exporter version: 6.2.0, Blender version: 2.80 (sub 75)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		texture directory   :  /Users/sonmez/Workspace/Babylon/babylon-for-beginners/loading assets/assets/
+	Python World class constructor completed
+	processing begun of mesh:  Cube
+		processing begun of material:  Material
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of mesh:  Model::*Light FX*
+		processing begun of material:  Plaque
+		processing begun of material:  Vitre
+		processing begun of material:  Vitre_032noir
+		processing begun of material:  Joint_032de_032vitre
+		processing begun of material:  Partie_032noir
+		processing begun of material:  Plastique_032noir
+		processing begun of material:  Phare_032text
+		processing begun of material:  Phare_032vitre
+		processing begun of material:  Phare
+		processing begun of material:  Chrome
+		processing begun of material:  Feux_032avant
+		processing begun of material:  Dessous
+		processing begun of material:  Dessous_032text
+		processing begun of material:  Brake_032Pads
+		processing begun of material:  Misc
+		processing begun of material:  Feux_032g
+		processing begun of material:  Feux_032cg
+		processing begun of material:  Feux_032glass
+		processing begun of material:  Feux_032d
+		processing begun of material:  Feux_032cd
+		processing begun of material:  Phare_032optique
+		processing begun of material:  Logo_032chevy
+		processing begun of material:  Clignotant
+		processing begun of material:  Disk
+		processing begun of material:  Pneu_032texture
+		processing begun of material:  Jante
+		processing begun of material:  Interieur
+		processing begun of material:  Miroir
+		processing begun of material:  Body
+			processing texture plaque2
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture CAMARO_HEADLIGHT
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture CAMARO_MISC
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture BOTTOM
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture CAMARO_MISC
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture CAMARO_MISC
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture Feux_G
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture Feux_2
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture Feux_D
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture _2
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture CAMARO_BADGING
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture BRAKDISC
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture TIRE
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture CAMARO_INTERIOR
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  camaro.Multimaterial#0
+		Custom split normals with tangents being used
+		num positions      :  21504
+		num normals        :  21504
+		num tangents       :  21504
+		num uvs            :  43008
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  60126
+	processing begun of light (POINT):  Light
+========= Writing of JSON file started =========
+	writing mesh:  Cube
+	writing mesh:  Model::*Light FX*
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 1.318 secs

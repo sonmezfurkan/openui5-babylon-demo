@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>OpenUI5 | 3D With Babylonjs</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<script id="sap-ui-bootstrap"
+		src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+		data-sap-ui-theme="sap_belize"
+		data-sap-ui-libs="sap.m, sap.ui.layout"
+		data-sap-ui-resourceroots='{"demo.babylon.openui5": "./"}'
+		data-sap-ui-async="true">
+	</script>
+	<script src="https://cdn.babylonjs.com/babylon.js"></script>
+	<script src="https://preview.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+	<script>
+		sap.ui.getCore().attachInit(() => {
+			sap.ui.require(["sap/ui/core/mvc/XMLView"], XMLView => {
+				XMLView.create({viewName: "demo.babylon.openui5.Main"}).then(oView => {
+					oView.placeAt("content")
+				})
+			})
+		})
+	</script>
+</head>
+<body class="sapUiBody" id="content"></body>
+</html>

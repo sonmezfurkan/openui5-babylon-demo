@@ -1,0 +1,21 @@
+.container {
+    width: 100%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.render-canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    outline: none;
+}
+
+.color-scema-container {
+    background: white !important;
+    margin: 0 1rem;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}

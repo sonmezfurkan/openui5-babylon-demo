@@ -1,0 +1,34 @@
+<mvc:View
+	controllerName="demo.babylon.openui5.Main"
+	displayBlock="true"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:l="sap.ui.layout"
+	xmlns:core="sap.ui.core"
+	xmlns="sap.m"
+    xmlns:custom="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
+	<App id="app">
+		<Page title="Sample use case of Babylonjs library with UI5">
+            <MessageStrip class="sapUiTinyMarginBeginEnd sapUiTinyMarginTop" showIcon="true" text="You can configure and rotate the 3D model, and find the source code">
+                <Link text="here" href="https://github.com/sonmezfurkan/openui5-svg-demo" target="_blank" />
+            </MessageStrip>
+			<HBox class="container">
+                <html:canvas class="render-canvas" id="idRenderCanvas" />
+                <FlexBox direction="Column" justifyContent="Center" class="color-scema-container">
+                    <core:Icon class="sapUiSmallMarginBeginEnd" src="sap-icon://rhombus-milestone-2" color="#212121" size="4rem" press="onSelectColor" hoverColor="#3a3a3a" custom:key="black" />
+                    <core:Icon class="sapUiSmallMarginBeginEnd" src="sap-icon://rhombus-milestone-2" color="#75797A" size="4rem" press="onSelectColor" hoverColor="#8f9293" custom:key="gray" />
+                    <core:Icon class="sapUiSmallMarginBeginEnd" src="sap-icon://rhombus-milestone-2" color="#ECECEA" size="4rem" press="onSelectColor" hoverColor="#d4d4cf" custom:key="white" />
+                    <core:Icon class="sapUiSmallMarginBeginEnd" src="sap-icon://rhombus-milestone-2" color="#AB1925" size="4rem" press="onSelectColor" hoverColor="#d71f2f" custom:key="red" />
+                    <core:Icon class="sapUiSmallMarginBeginEnd" src="sap-icon://rhombus-milestone-2" color="#016AA9" size="4rem" press="onSelectColor" hoverColor="#018adc" custom:key="blue" />
+                </FlexBox>
+            </HBox>
+            <footer>
+                <Bar>
+                    <contentMiddle>
+                        <core:Icon color="#367dc4" src="sap-icon://sap-ui5" size="2.7rem" class="sapUiSmallMarginBottom" width="100%"/>
+                    </contentMiddle>
+                </Bar>
+            </footer>
+		</Page>
+	</App>
+</mvc:View>
