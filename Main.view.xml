@@ -10,7 +10,7 @@
 	<App id="app">
 		<Page title="Sample use case of Babylonjs library with UI5">
             <MessageStrip class="sapUiTinyMarginBeginEnd sapUiTinyMarginTop" showIcon="true" text="You can configure and rotate the 3D model, and find the source code">
-                <Link text="here" href="https://github.com/sonmezfurkan/openui5-svg-demo" target="_blank" />
+                <Link text="here" href="https://github.com/sonmezfurkan/openui5-babylon-demo" target="_blank" />
             </MessageStrip>
 			<HBox class="container">
                 <html:canvas class="render-canvas" id="idRenderCanvas" />
